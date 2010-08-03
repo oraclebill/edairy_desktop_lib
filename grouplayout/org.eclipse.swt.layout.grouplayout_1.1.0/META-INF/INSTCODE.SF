@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: P1trSO2s1+bzA6aePivTXz5/vqg=
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: pYEboDlV5c5gH6X+VNFc/xBPGV0=
+
+Name: src/org/eclipse/swt/layout/grouplayout/GroupLayout.java
+SHA1-Digest: 8uOPUBEEHfTjMJ4r8SJGLU7MkF4=
+
+Name: target.properties
+SHA1-Digest: LaOmdAYILNhlc01EY1ih8aGn2Os=
+
+Name: plugin.xml
+SHA1-Digest: JKS8a35NXwVdPWtKrikpboj007A=
+
+Name: plugin.properties
+SHA1-Digest: uQiOH/bhxYnM7Cs3bZMZ6f9/lSs=
+
+Name: src/org/eclipse/swt/layout/grouplayout/LayoutStyle.java
+SHA1-Digest: SaOntbZkXW7jFjE33mwDMlcLqCM=
+
+Name: swt-grouplayout.jar
+SHA1-Digest: kdKDIEqC9Au/nFw0gdnEryhm+9s=
+
+Name: src/org/eclipse/swt/layout/grouplayout/Activator.java
+SHA1-Digest: 3HSTV2bphjr/fpyXkXObm/5cvI4=
+
+Name: src/org/eclipse/swt/layout/grouplayout/WindowsLayoutStyle.java
+SHA1-Digest: nJ2o9lQo8O3rKJe4KCGF08tMSeo=
+
+Name: license.txt
+SHA1-Digest: 19nZFCnkJS+0I7ZQk4ARpSU1jmw=
+

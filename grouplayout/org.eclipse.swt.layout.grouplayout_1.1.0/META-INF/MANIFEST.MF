@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.swt.layout.grouplayout
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: swt-grouplayout.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.sw
+ t.widgets.baseline
+Bundle-Vendor: %providerName
+Bundle-Version: 1.1.0
+Bundle-Activator: org.eclipse.swt.layout.grouplayout.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.swt.layout.grouplayout;singleton:=tru
+ e
+
+Name: target.properties
+SHA1-Digest: Hk/pky4QORdzyIbGl4yVPwuEVrk=
+
+Name: src/org/eclipse/swt/layout/grouplayout/GroupLayout.java
+SHA1-Digest: aADfQ0om04LVQx2mSXeLinCqykw=
+
+Name: plugin.xml
+SHA1-Digest: QLx8runHpSxe4qMovLO4a/GhWgI=
+
+Name: swt-grouplayout.jar
+SHA1-Digest: Z27Iu2FjMvZj75NeSEtMNCk9dg8=
+
+Name: src/org/eclipse/swt/layout/grouplayout/LayoutStyle.java
+SHA1-Digest: l/Pshae7HbZewpZPBu0Vct8FwdM=
+
+Name: plugin.properties
+SHA1-Digest: EjyJ3/XgdDU/JtqZa8Os0/Z+3e0=
+
+Name: src/org/eclipse/swt/layout/grouplayout/WindowsLayoutStyle.java
+SHA1-Digest: Q1HFCTwI5CAgKo3AmJqCJhxBmDg=
+
+Name: src/org/eclipse/swt/layout/grouplayout/Activator.java
+SHA1-Digest: 02YLgQYHFZ67UTPb7SMKqIx208c=
+
+Name: license.txt
+SHA1-Digest: RAWlRK0SFZ9p7eHfPwnEUN8GboA=
+
