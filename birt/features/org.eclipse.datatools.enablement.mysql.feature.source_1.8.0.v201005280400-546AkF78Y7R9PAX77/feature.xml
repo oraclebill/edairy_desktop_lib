@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.enablement.mysql.feature.source" version="1.8.0.v201005280400-546AkF78Y7R9PAX77" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.enablement.mysql.dbdefinition.source" version="1.0.4.v200906161800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.mysql.source" version="1.0.2.v201002041100"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.mysql.ui.source" version="1.0.0.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.finfo.source" version="1.5.1.v200906161800"     unpack="false"/>
+</feature>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.enablement.sybase.feature.source" version="1.8.0.v201005280400-7E45F9NiNWvOOXxPdVT" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.enablement.sybase.asa.models.source" version="1.0.0.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.ase.models.source" version="1.0.1.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.asa.source" version="1.0.1.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.ase.source" version="1.0.1.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.ase.dbdefinition.source" version="1.0.0.v200906161800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.asa.dbdefinition.source" version="1.0.0.v200906161800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.asa.ui.source" version="1.0.1.v200906111150"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.ase.ui.source" version="1.0.1.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.source" version="1.0.1.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.models.source" version="1.0.0.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.ui.source" version="1.0.0.v200906090458"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.source" version="2.5.0.200810071"     unpack="false"/>
+</feature>

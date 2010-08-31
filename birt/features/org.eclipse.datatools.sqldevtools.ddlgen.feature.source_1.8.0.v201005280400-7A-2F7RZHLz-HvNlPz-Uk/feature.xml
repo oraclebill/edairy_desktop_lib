@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.sqldevtools.ddlgen.feature.source" version="1.8.0.v201005280400-7A-2F7RZHLz-HvNlPz-Uk" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.sqltools.sql.source" version="1.0.0.v200906022302"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.common.ui.source" version="1.0.0.v200906022302"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.plan.source" version="1.0.0.v200906022302"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.editor.core.source" version="1.0.0.v201001150815"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.sqleditor.source" version="1.0.1.v201005130745"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.ddlgen.ui.source" version="1.0.1.v201002270530"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.db.generic.source" version="1.0.1.v200908130547"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.editor.core.ui.source" version="1.0.0.v201001150815"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.sql.ui.source" version="1.0.0.v200906022302"     unpack="false"/>
+</feature>
