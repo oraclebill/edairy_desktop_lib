@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.enablement.ibm.feature.source" version="1.8.1.v20100618-7F47SFC7sRbrSZope9vW" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.enablement.ibm.ui.source" version="1.0.0.v200906020900"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition.source" version="1.0.3.v200906161800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.iseries.source" version="1.0.2.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.iseries.ui.source" version="1.0.1.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition.source" version="1.0.4.v201005211215"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.luw.source" version="1.0.2.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.luw.ui.source" version="1.0.2.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition.source" version="1.0.4.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.zseries.source" version="1.0.2.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.db2.zseries.ui.source" version="1.0.1.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.informix.dbdefinition.source" version="1.0.4.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.informix.source" version="1.0.1.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ibm.informix.ui.source" version="1.0.2.v201005211230"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.finfo.source" version="1.5.1.v200906161800"     unpack="false"/>
+</feature>

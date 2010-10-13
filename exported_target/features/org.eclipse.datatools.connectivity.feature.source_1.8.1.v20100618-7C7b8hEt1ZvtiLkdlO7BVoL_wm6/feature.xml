@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.connectivity.feature.source" version="1.8.1.v20100618-7C7b8hEt1ZvtiLkdlO7BVoL_wm6" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.connectivity.sqm.core.ui.source" version="1.2.0.v201002281800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.sqm.core.source" version="1.2.1.v201008120113"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.sqm.server.ui.source" version="1.1.100.v200910270503"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.ui.dse.source" version="1.1.4.v201004270430"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.ui.source" version="1.2.0.v201006250003"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.source" version="1.2.1.v201007142147"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.help.source" version="1.5.0.v200906020553"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.console.profile.source" version="1.0.0.v200906020553"     unpack="false"/>
+</feature>

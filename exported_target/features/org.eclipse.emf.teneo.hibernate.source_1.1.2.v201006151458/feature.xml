@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.teneo.hibernate.source"
+      label="%featureName"
+      version="1.1.2.v201006151458"
+      provider-name="%providerName">
+
+   <description url=" http://www.eclipse.org/emf">
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2010 Springsite BV (Netherlands) and others.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.emf.teneo.hibernate.eclipse.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.teneo.eclipse.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.teneo.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.teneo.hibernate.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.teneo.annotations.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.teneo.hibernate.mapper.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201006151458"
+         unpack="false"/>
+
+</feature>

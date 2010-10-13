@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.pde.junit.runtime.addon"
+      label="%featureName"
+      version="1.0.0.v20100831"
+      provider-name="%providerName">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires> 
+       <import plugin="org.eclipse.core.runtime" version="3.6.0"/> 
+    </requires>
+    <plugin id="org.eclipse.jdt.junit.runtime" download-size="51" install-size="93" version="3.4.200.v20100526-0800" unpack="false"/>
+    <plugin id="org.eclipse.pde.junit.runtime" download-size="17" install-size="28" version="3.4.100.v20100601" unpack="false"/>
+    <plugin id="org.hamcrest.core" download-size="27" install-size="50" version="1.1.0.v20090501071000" unpack="false"/>
+    <plugin id="org.junit" download-size="197" install-size="243" version="4.8.1.v4_8_1_v20100427-1100" unpack="true"/>
+
+</feature>

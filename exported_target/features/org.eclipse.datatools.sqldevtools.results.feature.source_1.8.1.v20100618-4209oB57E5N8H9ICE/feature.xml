@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.sqldevtools.results.feature.source" version="1.8.1.v20100618-4209oB57E5N8H9ICE" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.sqltools.common.ui.source" version="1.0.0.v200906022302"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.sqltools.result.source" version="1.1.0.v201005260930"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.source" version="1.2.1.v201007142147"     unpack="false"/>
+</feature>

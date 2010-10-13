@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.sdk.feature"
+      label="%featureName"
+      version="1.8.1.v20100618-7P9i7KFDxNYrp4cjPjqnPaRKxeyT"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.sdk"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <includes
+         id="org.eclipse.datatools.modelbase.feature"
+         version="1.8.1.v20100618-77078CcNBGKBZI_FcRd"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.feature"
+         version="1.8.1.v20100618-7C7b8hEt1ZvtiLkdlO7BVoL_wm6"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.feature"
+         version="1.8.1.v20100618-7N7y7AFDrhoZFIFUNhpFwckfaS-S"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.modelbase.feature.source"
+         version="1.8.1.v20100618-77078CcNBGKBZI_FcRd"/>
+
+   <includes
+         id="org.eclipse.datatools.intro"
+         version="1.8.1.v20100618-26-7w312116392911"/>
+
+   <includes
+         id="org.eclipse.datatools.doc.user"
+         version="1.8.1.v20100618-47C08w95ENAK6AFDFK7"/>
+
+   <includes
+         id="org.eclipse.datatools.common.doc.user"
+         version="1.8.1.v20100618-26-311A16321A3557"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.doc.user"
+         version="1.8.1.v20100618-37D-7733L3D753L7BBF"/>
+
+   <includes
+         id="org.eclipse.datatools.sqltools.doc.user"
+         version="1.8.1.v20100618-37D-7733L3D753L7BBF"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.feature.source"
+         version="1.8.1.v20100618-7C7b8hEt1ZvtiLkdlO7BVoL_wm6"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.feature.source"
+         version="1.8.1.v20100618-7N7y7AFDrhoZFIFUNhpFwckfaS-S"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.oda.designer.feature.source"
+         version="1.8.1.v20100618-4107w3121151A1A53"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.oda.designer.core.feature.source"
+         version="1.8.1.v20100618-7B7C79CcNBGKBgIZCSNS"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.connectivity.oda.feature.source"
+         version="1.8.1.v20100618-7H7C7ACcNBHBBkHeGSMd"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.data.feature.source"
+         version="1.8.1.v20100618-640BgJ9DI9ZHVDdHL"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.ddl.feature.source"
+         version="1.8.1.v20100618-277078B03G8S_IMz00IwOmQz00Vl"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.ddlgen.feature.source"
+         version="1.8.1.v20100618-7A-2F7RZHLz-HvNlPz-Uk"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.parsers.feature.source"
+         version="1.8.1.v20100618-622BgJ9CR9XFcEWLP"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.results.feature.source"
+         version="1.8.1.v20100618-4209oB57E5N8H9ICE"/>
+
+   <includes
+         id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.source"
+         version="1.8.1.v20100618-79-3EVVFJoFsJcMz0Pe"/>
+
+   <requires>
+      <import feature="org.eclipse.pde" version="3.4.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.doc.isv"
+         download-size="0"
+         install-size="0"
+         version="1.7.1.200906161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sdk"
+         download-size="0"
+         install-size="0"
+         version="1.7.0.v200906161850"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.ui.templates"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906020553"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.ui.templates.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906020553"
+         unpack="false"/>
+
+</feature>

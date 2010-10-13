@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.enablement.ingres.feature.source" version="1.8.1.v20100618-540AkF78Y7VCOCQDB" label="%FEATURE_NAME" provider-name="%PROVIDER_NAME"     >
+	<description >
+		%DESCRIPTION
+	</description>
+	<license url="%LICENSE_URL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="Data Tools Platform (DTP) Updates"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="Data Tools Platform (DTP) Updates"/>
+	</url>
+	<plugin id="org.eclipse.datatools.enablement.ingres.source" version="1.0.0.v200906111150"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ingres.dbdefinition.source" version="1.0.0.v200906161800"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.ingres.ui.source" version="1.0.0.v201006242214"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.finfo.source" version="1.5.1.v200906161800"     unpack="false"/>
+</feature>

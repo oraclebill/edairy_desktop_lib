@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.enablement.jdt.feature"
+      label="%featureName"
+      version="1.8.1.v20100618-2-07w31211518181A"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.enablement.jdt.classpath"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.jdt" version="3.4.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.jdt.classpath"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201004070709"
+         unpack="false"/>
+
+</feature>

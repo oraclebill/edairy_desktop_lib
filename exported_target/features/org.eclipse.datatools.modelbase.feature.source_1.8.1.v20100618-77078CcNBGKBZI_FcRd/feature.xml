@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.modelbase.feature.source" version="1.8.1.v20100618-77078CcNBGKBZI_FcRd" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.modelbase.dbdefinition.source" version="1.0.2.v201002130228"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.modelbase.sql.edit.source" version="1.0.1.v201002161452"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.modelbase.sql.query.source" version="1.1.1.v201008100700"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.modelbase.sql.query.edit.source" version="1.0.0.v200906022249"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.modelbase.sql.xml.query.source" version="1.0.1.v201004291415"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.modelbase.sql.source" version="1.0.4.v201002250945"     unpack="false"/>
+</feature>
